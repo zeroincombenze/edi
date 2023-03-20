@@ -2,13 +2,18 @@
 # License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl).
 
 {
-    "name": "Base UBL",
-    "version": "14.0.1.8.0",
-    "category": "Hidden",
-    "license": "AGPL-3",
-    "summary": "Base module for Universal Business Language (UBL)",
-    "author": "Akretion,Onestein,Odoo Community Association (OCA)",
-    "website": "https://github.com/OCA/edi",
-    "depends": ["uom_unece", "account_tax_unece", "base_vat", "pdf_helper"],
-    "installable": True,
+    'name': 'Base UBL',
+    'version': '12.0.1.1.1',
+    'category': 'Hidden',
+    'license': 'AGPL-3',
+    'summary': 'Base module for Universal Business Language (UBL)',
+    'author': 'Akretion,Odoo Community Association (OCA)',
+    'website': 'https://github.com/oca/edi/',
+    'depends': [
+        'uom_unece',
+        'account_tax_unece',
+        'base_vat_sanitized',
+        ],
+    'external_dependencies': {'python': ['PyPDF2']},
+    'installable': True,
 }

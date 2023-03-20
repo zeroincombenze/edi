@@ -20,7 +20,7 @@ msgstr ""
 
 #. module: base_facturx
 #: model:ir.model,name:base_facturx.model_base_facturx
-msgid "Common methods to generate and parse Factur-X and Order-X"
+msgid "Common methods to generate and parse Factur-X invoices"
 msgstr ""
 
 #. module: base_facturx

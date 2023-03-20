@@ -1,12 +1,12 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-# 	* account_invoice_import_invoice2data
+#	* account_invoice_import_invoice2data
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 12.0\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2022-01-28 00:48+0000\n"
+"PO-Revision-Date: 2020-12-15 19:19+0000\n"
 "Last-Translator: Bosd <c5e2fd43-d292-4c90-9d1f-74ff3436329a@anonaddy.me>\n"
 "Language-Team: none\n"
 "Language: nl\n"
@@ -19,40 +19,24 @@ msgstr ""
 #. module: account_invoice_import_invoice2data
 #: model_terms:ir.ui.view,arch_db:account_invoice_import_invoice2data.account_invoice_import_form
 msgid "<b>regular PDF</b> file without any embedded XML file via the"
-msgstr "<b>normaal PDF</b> bestand zonder een geintegreerd XML bestand via de"
-
-#. module: account_invoice_import_invoice2data
-#: model:ir.model.fields,field_description:account_invoice_import_invoice2data.field_account_invoice_import__display_name
-msgid "Display Name"
-msgstr ""
-
-#. module: account_invoice_import_invoice2data
-#: model:ir.model.fields,field_description:account_invoice_import_invoice2data.field_account_invoice_import__id
-msgid "ID"
-msgstr ""
+msgstr "<b>gewoon PDF</b> bestand zonder een geintegreerd XML bestand via de"
 
 #. module: account_invoice_import_invoice2data
 #: model:product.product,name:account_invoice_import_invoice2data.internet_access
 #: model:product.template,name:account_invoice_import_invoice2data.internet_access_product_template
 msgid "Internet Access"
-msgstr "Internet Toegang"
+msgstr "Internet Access"
 
 #. module: account_invoice_import_invoice2data
-#: model:ir.model.fields,field_description:account_invoice_import_invoice2data.field_account_invoice_import____last_update
-msgid "Last Modified on"
-msgstr ""
-
-#. module: account_invoice_import_invoice2data
-#: code:addons/account_invoice_import_invoice2data/wizard/account_invoice_import.py:0
+#: code:addons/account_invoice_import_invoice2data/wizard/account_invoice_import.py:57
 #, python-format
 msgid "PDF Invoice parsing failed. Error message: %s"
 msgstr "Het is niet gelukt om de PDF factuur te verwerken. Fout melding: %s"
 
 #. module: account_invoice_import_invoice2data
-#: code:addons/account_invoice_import_invoice2data/wizard/account_invoice_import.py:0
+#: code:addons/account_invoice_import_invoice2data/wizard/account_invoice_import.py:60
 #, python-format
-msgid ""
-"This PDF invoice doesn't match a known template of the invoice2data lib."
+msgid "This PDF invoice doesn't match a known template of the invoice2data lib."
 msgstr ""
 "Deze PDF factuur heeft geen overeenkomstig herkennings sjabloon van de "
 "invoice2data library."
@@ -60,8 +44,8 @@ msgstr ""
 #. module: account_invoice_import_invoice2data
 #: model:product.product,uom_name:account_invoice_import_invoice2data.internet_access
 #: model:product.template,uom_name:account_invoice_import_invoice2data.internet_access_product_template
-msgid "Units"
-msgstr ""
+msgid "Unit(s)"
+msgstr "Stuk(s)"
 
 #. module: account_invoice_import_invoice2data
 #: model:ir.model,name:account_invoice_import_invoice2data.model_account_invoice_import
@@ -74,18 +58,15 @@ msgid "invoice2data"
 msgstr "invoice2data"
 
 #. module: account_invoice_import_invoice2data
+#: model:product.product,weight_uom_name:account_invoice_import_invoice2data.internet_access
+#: model:product.template,weight_uom_name:account_invoice_import_invoice2data.internet_access_product_template
+msgid "kg"
+msgstr "kg"
+
+#. module: account_invoice_import_invoice2data
 #: model_terms:ir.ui.view,arch_db:account_invoice_import_invoice2data.account_invoice_import_form
-msgid ""
-"library (reads the text of the PDF and get the information). It will work "
-"only if the invoice2data library has a template for the invoices of that "
-"supplier."
+msgid "library (reads the text of the PDF and get the information). It will work only if the invoice2data library has a template for the invoices of that supplier."
 msgstr ""
-"bibliotheek (extraheert de teksten in de PDF voor het verkrijgen van de "
+"bibliotheek (leest de teksten in de PDF voor het verkrijgen van de "
 "informatie). Het werkt enkel wanneer er een sjabloon beschikbaar is voor de "
 "betreffende leverancier."
-
-#~ msgid "Unit(s)"
-#~ msgstr "Stuk(s)"
-
-#~ msgid "kg"
-#~ msgstr "kg"
